@@ -15,6 +15,7 @@
 	margin: 16px 20px;
 	overflow: hidden;
 	box-shadow: 2px 2px 3px #ccc;
+	float:left;
 }
 .case-mod .item-cont  {
 	font-size: 16px;
