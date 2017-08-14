@@ -1,0 +1,40 @@
+@charset 'ut8-8';
+
+.case-list {
+	width: 49%;
+	display: inline-block;
+	padding: 8px 0px;
+
+}
+.case-wrap {
+	padding: 2px 6px;
+}
+.case-list dd{
+	padding: 2px 0px;
+}
+
+.big-p {
+	margin-top: 50px;
+}
+.about-info {
+	padding: 3px 10px;
+}
+.about-info h2{
+	font-size: 16px;
+	color:#F74A66;
+	padding: 10px 0 6px 0;
+}
+.item-info p{
+	font-size: 13px;
+	padding: 4px 0;
+	line-height: 22px;
+}
+.servece-item dt{
+	font-size: 14px;
+	padding: 8px 0;
+}
+.servece-item dd {
+	font-size: 13px;
+	line-height: 22px;
+	padding: 0 0 10px 0;
+}

@@ -1,0 +1,132 @@
+@charset 'utf-8';
+body {
+	background-color: #F5F6FB;
+}
+
+.city-list-wrap {
+	border: 1px solid #ccc;
+	background-color:#FFFFFF;
+}
+.city-list-wrap dt {
+	display:inline-block;
+	font-size: 16px;
+	color: #666666;
+}
+.city-list-wrap dl{
+	padding: 10px 3px 16px 16px;
+}
+.city-list-wrap .choice-item {
+	display: inline-block;
+}
+.city-list-wrap .choice-item a {
+	font-size: 17px;
+	padding: 2px 10px;
+	color:#333;
+}
+.city-list-wrap .choice-item a:hover{
+	background-color: #E5004F;
+	color: #FFFFFF !important;
+}
+.choice-on {
+	background-color: #E5004F;
+	color: #FFFFFF !important;
+}
+.city-list-wrap .hidden-item {
+	margin-left: 122px;
+	padding: 8px 12px;
+}
+.city-list-wrap .hidden-item  {
+	display: none;
+}
+.city-list-wrap .hidden-item  a {
+	line-height: 40px;
+}
+.city-list-wrap span {
+	font-size: 15px;
+	cursor: pointer;
+	color:blue;
+	-webkit-user-select: none;  
+    -moz-user-select: none;  
+    -ms-user-select: none;  
+}
+.mini-sort-bar  {
+	overflow: hidden;
+}
+
+.mini-sort-bar ul li{
+	float: left;
+	font-size: 17px;
+	color: #333;
+	padding: 20px 12px 20px 0;
+
+}
+.res_list {
+	border: 1px solid #ccc;
+	background-color: #FFFFFF;
+	margin-bottom: 20px;
+}
+.res_list li {
+	overflow: hidden;
+	padding: 50px ;
+}
+.res_list .line-left {
+	float: left;
+	width: 376px;
+}
+.res_list .line-side {
+	float: right;
+	font-size: 18px;
+	width: 157px;
+	height: 282px;
+	position: relative;
+}
+.res_list .line-inner {
+	display: inline-block;
+	width: 100px;
+	position: absolute;
+	top:45%;
+	left: 15%;
+}
+.res_list .line-inner span{
+	color: #FF4500;
+}
+.res_list .line-main {
+	border-right: 1px solid #ccc;
+	width: 603px;
+	float: left;
+	padding: 10px 0;
+}
+.res_list .list-title {
+	font-size: 13px;
+	color: #ccc;
+	padding: 6px 0px;
+	text-indent: 6px;
+}
+.res_list .list-title span{
+	background-color: #DC143C;
+	color: #FFFFFF;
+	padding: 1px 6px;
+	border-radius:3px;
+}
+.res_list .line-main dt a {
+	font-size: 18px;
+	padding: 6px 0;
+	color: #333 !important;
+}
+.res_list .p1 {
+	font-size: 16px;
+	color: #666666;
+	padding: 6px 0px;
+	text-indent: 6px;
+}
+.res_list .list-info {
+	padding:35px 6px 0 6px;
+}
+.res_list .list-info span{
+	color: #2FA6E5;
+}
+.res_list .list-info p {
+	font-size: 16px;
+	padding: 5px;
+	text-indent: 6px;
+}

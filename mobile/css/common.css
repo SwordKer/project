@@ -1,0 +1,126 @@
+﻿@charset 'utf-8';
+
+*{ margin: 0px;padding: 0px;}
+a { text-decoration:none;}
+ul li { list-style-type: none;}
+img {display: inline-block;max-width: 100%}
+body,i,em {
+    font-family: "Microsoft yahei",Arial,simsun;
+    font-size: 12px;
+    color: #333;
+    font-style: normal;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+.nav-bar {
+	width: 100%;
+	height: 46px;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #ccc;
+	position: absolute;
+	top:0;
+	z-index:999;
+}
+
+.nav-bar ul li{
+	float: right;
+	width: 56px;	
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	cursor:pointer;
+}
+.active {
+	color: #FF485E !important;
+}
+#nav-bar ul li a {
+	font-size: 16px;
+	color: #333;
+}
+.container {
+	max-width: 640px;
+	margin: 0 auto;
+}
+.carousel {
+	margin: 48px auto 2px auto;
+	height:0;
+	position: relative;
+	overflow: hidden;
+}
+.box li {
+	float: left;	
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.carousel-item {
+	position: absolute;
+	top:80%;
+	left: 46%;
+}
+.carousel-item span{
+	display: block;
+	width: 8px;
+	height: 8px;
+	float: left;
+	background-color: #ccc;
+	margin-left: 4px;
+	border-radius: 4px;
+}
+.active-panel {
+	background-color: #fff !important;
+}
+.footer{
+	width: 100%;
+	background-color: #F5F6FB;
+	clear: left;	
+}
+.footer .footer-list {
+	overflow: hidden;
+}
+.footer .footer-info,.help-list {
+	width:32%;
+	padding: 0 0 8px 0;
+	float: left;
+}
+.footer h4 {
+	font-size: 15px;
+	color: #333;
+	font-weight: normal;
+	padding: 5px 3px;
+}
+.help-list li {
+	padding: 1px 3px;
+	font-size: 14px;
+}
+.footer-info ul li {
+	display: inline-block;
+	width: 40%;
+	padding: 6px 3px;
+}
+.footer-aboutlink {
+	border-top: 1px solid #ccc;
+}
+.footer-aboutlink p{
+	text-align: center;
+	padding: 5px 0 3px 0;
+}
+
+@media screen and (max-width: 420px) { /*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+   .footer-aboutlink span {
+     display: none;
+   }
+   .hidden {
+   	display: none;;
+   }
+}

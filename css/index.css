@@ -1,0 +1,83 @@
+@charset 'utf-8';
+
+.introduce {
+	width: 100%;
+	overflow: hidden;
+	background-color: #f5f6fb;
+	padding: 30px 0;
+}
+.introduce-left {
+	width: 45%;
+	float: left;
+}
+.introduce-right {
+	display: inline-block;
+	width: 45%;
+	float: right;
+	margin-top:60px;
+}
+.introduce dt {
+	color:#e5004f;
+	font-size: 17px;
+	letter-spacing: 2px;
+	line-height: 35px;
+}
+.introduce dd {
+	color: #999;
+	font-size: 15px;
+	line-height: 30px;
+}
+.introduce dd p{
+	color: #555555;
+	font-size: 15px;
+	line-height: 25px;
+	margin-top: 5px;
+}
+.introduce-right span {
+	background-color: #f4b547;
+	padding: 3px;
+	color: #ffffff;
+	border-radius: 3px;
+	padding: 2px 5px;
+	margin-right: 5px;
+}
+.theme-wrap h4 {
+	font-weight: normal;
+	text-align: center;
+	font-size: 23px;
+	color: #666666;
+	letter-spacing: 2px;
+	padding:50px 0;
+}
+.theme-wrap p {
+	font-size: 16px;
+	text-align: center;
+	padding: 10px;
+}
+.theme-item {
+	padding:46px 0 20px 0;
+}
+.theme-item a {
+	position: relative;
+	display: inline-block;
+}
+.theme-item a div {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	position: absolute;
+	opacity: 0.2;
+	filter:alpha(opacity=20);
+}
+.theme-item a div:hover {
+	opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+	
+}
+@media (max-width: 479px) {
+
+}
